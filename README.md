@@ -1,1 +1,1 @@
-hrd_codeigniter4
+Aplikasi HRD menggunakan codeigniter 4.0.5
