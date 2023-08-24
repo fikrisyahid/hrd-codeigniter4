@@ -4,14 +4,17 @@
 	"description": "CodeIgniter4 starter app",
 	"homepage": "https://codeigniter.com",
 	"license": "MIT",
+	"minimum-stability": "beta",
+	"prefer-stable": true,
 	"require": {
-		"php": "^7.2 || ^8.0",
-		"codeigniter4/framework": "^4"
+		"php": "^7.3||^8.0",
+		"codeigniter4/framework": "^4",
+		"myth/auth": "^1.0@beta"
 	},
 	"require-dev": {
 		"fakerphp/faker": "^1.9",
 		"mikey179/vfsstream": "^1.6",
-		"phpunit/phpunit": "^8.5"
+		"phpunit/phpunit": "^9.1"
 	},
 	"suggest": {
 		"ext-fileinfo": "Improves mime type detection for files"
